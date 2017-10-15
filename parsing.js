@@ -8,36 +8,25 @@ const cheerio = require('cheerio');
 function getCurrentChart(callback) {
     var url = 'http://music.bugs.co.kr/chart?wl_ref=M_left_02_01';
     var currentChart;
-    
-    request(url, function(err,response, html) {
-        /* HTML소스를 크롤링 */
-        if(err) {
+
+    request(url, function (err, response, html) {
+        if (err) {
             throw err;
         }
-    
-        /* 노래 제목을 순서대로 파싱 */
+        /* html 소스를 파싱 */
         var $ = cheerio.load(html);
-        var result = $("p.title").text();
-        var music_name = result.trim();
-    
+        var artist = $("p.artist").text().trim().split('\n');
         /* 가수를 파싱 */
-        var temp = $('p.artist').text();
-        var artist_name = temp.trim();
-    
-        /* 가수와 노래 제목을 배열에 넣음 */
-        var overrap = $("a.more").text().trim().split('\n');
-        var name = music_name.split('\n');
-        var artist = artist_name.split('\n');
-    
-        for(var i in overrap) { // 아티스트 더 보기로인해 생기는 가수 중복을 제거
-            if(artist.indexOf(overrap[i]) != -1) {
-                artist.splice(artist.indexOf(overrap[i]), 1);
-            }
-        }
+        var name = $('p.title').text().trim().split('\n');
+        /* 중복 제거를 위해 중복된 가수 배열 */
+        var overlap = $("a.more").text().trim().split('\n');
+
+        /* 공백 제거 */
         removeSpaces(name);
         removeSpaces(artist);
 
-        // callback(currentChart); // 최종 차트 정보를 담은 JSON object를 callback을 통해 반환
+        /* 중복 제거 */
+        // code
     });
 }
 
@@ -45,9 +34,9 @@ function getCurrentChart(callback) {
  * 배열의 공백을 제거해주는 함수 removeSpaces()
  */
 function removeSpaces(arr) {
-    for(var index in arr) {
-        if((arr.indexOf('') != -1) || (arr.indexOf(' ') != -1)) {
-            if((arr[index].length == 0) || (arr[index] === ' ')) {
+    for (var index in arr) {
+        if ((arr.indexOf('') !== -1) || (arr.indexOf(' ') !== -1) || (arr.indexOf('  ') !== -1)) {
+            if ((arr[index].length === 0) || (arr[index] === ' ')) {
                 arr.splice(index, 1);
             }
         } else {
@@ -55,6 +44,16 @@ function removeSpaces(arr) {
         }
     }
     removeSpaces(arr);
+}
+
+/**
+ * 중복 방향을 나타는 함수
+ */
+function checkOverlap(arr, index) {
+    if(arr[index] === arr[index+1] || arr[index] === arr[index-1])
+        return true;
+    else
+        return false;
 }
 
 getCurrentChart();
