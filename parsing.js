@@ -6,33 +6,33 @@ const cheerio = require('cheerio');
  *  실시간 차트를 파싱하여 josn객체로 반환하는 함수 getCurrentChart()
  */
 function getCurrentChart(callback) {
-    var url = 'http://music.bugs.co.kr/chart?wl_ref=M_left_02_01';
-    var currentChart;
+    var url = 'http://music.naver.com/listen/top100.nhn?domain=TOTAL&duration=1h';
+    var chart = null;
 
     request(url, function (err, response, html) {
-        if (err) {
-            throw err;
-        }
-        /* html 소스를 파싱 */
+        if(err) { throw err; }
+
         var $ = cheerio.load(html);
-        var artist = $("p.artist").text().trim().split('\n');
-        /* 가수를 파싱 */
-        var name = $('p.title').text().trim().split('\n');
-        /* 중복 제거를 위해 중복된 가수 배열 */
-        var overlap = $("a.more").text().trim().split('\n');
+        var name = $('td.name').text().trim().replace(/\t+/g, "").split('\n');
+        var artistName = $('a._artist').text().trim().replace(/\t+/g, "").split('\n');
 
-        /* 공백 제거 */
         removeSpaces(name);
-        removeSpaces(artist);
+        removeSpaces(artistName);
+        name.splice(0, 3);
 
-        /* 중복 제거 */
-        // code
+        var currentChart = new Array();
+        var songInfo = new Object();
+        for(var i=0; i<50; i++) {
+            songInfo.title = name[i];
+            songInfo.artist = artistName[i];
+            currentChart.push(songInfo);
+            songInfo = new Object();
+        }
+        chart = JSON.stringify(currentChart);
     });
+    /*callback(chart);*/
 }
 
-/**
- * 배열의 공백을 제거해주는 함수 removeSpaces()
- */
 function removeSpaces(arr) {
     for (var index in arr) {
         if ((arr.indexOf('') !== -1) || (arr.indexOf(' ') !== -1) || (arr.indexOf('  ') !== -1)) {
@@ -40,20 +40,8 @@ function removeSpaces(arr) {
                 arr.splice(index, 1);
             }
         } else {
-            return arr;
+            return;
         }
     }
     removeSpaces(arr);
 }
-
-/**
- * 중복 방향을 나타는 함수
- */
-function checkOverlap(arr, index) {
-    if(arr[index] === arr[index+1] || arr[index] === arr[index-1])
-        return true;
-    else
-        return false;
-}
-
-getCurrentChart();
