@@ -5,7 +5,7 @@ const cheerio = require('cheerio');
 /**
  *  실시간 차트를 파싱하여 josn객체로 반환하는 함수 getCurrentChart()
  */
-function getCurrentChart(callback) {
+function getCurrentChart() {
     var url = 'http://music.naver.com/listen/top100.nhn?domain=TOTAL&duration=1h';
     var chart = null;
 
@@ -28,9 +28,9 @@ function getCurrentChart(callback) {
             currentChart.push(songInfo);
             songInfo = new Object();
         }
-        chart = JSON.stringify(currentChart);
+        chart = currentChart;
+        console.log(chart);
     });
-    /*callback(chart);*/
 }
 
 function removeSpaces(arr) {
