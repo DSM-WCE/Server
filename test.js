@@ -1,3 +1,5 @@
-var ar = ["ab", "cd", "ef", "ab", "cd"];
+const cron = require('node-cron');
 
-console.log(ar.lastIndexOf('cd', 3));
+cron.schedule('* * * * * *', () => {
+    console.log('job')
+});

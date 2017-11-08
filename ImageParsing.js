@@ -3,6 +3,7 @@ const cheerio = require('cheerio');
 const download = require('download-file');
 const fs = require('fs');
 
+
 // 이미지파일 저장 디렉토리
 const path = __dirname + "/public/images";
 /**
@@ -23,7 +24,7 @@ function getAlbumArt() {
             let options = {
                 directory: path,
                 filename: fileName + '.png'
-            }
+            };
 
             download(url, options, (err) => {
                 if(err) { throw err; }
@@ -40,5 +41,3 @@ function deleteAllImage() {
         });
     }
 }
-
-deleteAllImage();
