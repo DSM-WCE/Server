@@ -64,7 +64,7 @@ def download_album_arts():
     images = get_image_url()
     for i in range(0, 100):
         url = images[i]
-        file_name = PATH + str(i + 1) + '.png'
+        file_name = PATH + str(i + 1) + '.jpg'
         request.urlretrieve(url, file_name)
 
 
@@ -76,3 +76,4 @@ def delete_album_art():
         os.mkdir(path)
     else:
         os.mkdir(path)
+
