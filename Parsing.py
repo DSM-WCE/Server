@@ -9,7 +9,7 @@ URL = 'https://music.bugs.co.kr/chart/track/day/total'
 PATH = os.getcwd() + '/static/images/'
 
 
-# Scrapping html code
+# 전체 html 코드를 스크래핑하는 함수
 def get_html(target_url):
     _html = ""
     response = requests.get(target_url)
@@ -18,7 +18,7 @@ def get_html(target_url):
     return _html
 
 
-# return today's chart information with jsonArray
+# 일별 차트의 정보를 반환하는 함수
 def get_chart_info():
     html = get_html(URL)
     soup = BeautifulSoup(html, 'html.parser')
@@ -45,7 +45,7 @@ def get_chart_info():
     return current_chart
 
 
-# parse image url and save in list
+# 이미지 url을 파싱해서 list 형태로 반환하는 함수
 def get_image_url():
     html = get_html(URL)
     soup = BeautifulSoup(html, 'html.parser')
@@ -59,7 +59,7 @@ def get_image_url():
     return img_url
 
 
-# download album art in static/images directory
+# 앨범아트를 다운로드해서 저장하는 함수
 def download_album_arts():
     images = get_image_url()
     for i in range(0, 100):
@@ -68,7 +68,7 @@ def download_album_arts():
         request.urlretrieve(url, file_name)
 
 
-# delete all album art
+# 디렉토리의 저장된 모든 앨범아트를 지우는 함수
 def delete_album_art():
     path = os.getcwd() + '/static/images'
     if os.path.exists(path):
@@ -76,4 +76,5 @@ def delete_album_art():
         os.mkdir(path)
     else:
         os.mkdir(path)
+
 
