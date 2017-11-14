@@ -1,8 +1,10 @@
 from flask import Flask
 from flask import send_from_directory
 import os
+import threading
 
 import db
+
 
 app = Flask(__name__)
 static_file_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'static')
@@ -23,5 +25,13 @@ def get_chart_info():
     return db.get_chart()
 
 
+def update():
+    print('update is running')
+    db.scheduled_update()
+
+
 if __name__ == '__main__':
+    thread = threading.Thread(target=update)
+    thread.start()
     app.run()
+

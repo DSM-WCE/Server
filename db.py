@@ -1,5 +1,6 @@
 from pymongo import MongoClient
 from collections import OrderedDict
+from apscheduler.schedulers.blocking import BlockingScheduler
 import json
 import os
 
@@ -51,3 +52,30 @@ def get_chart():
 def remove_documents():
     collection = DB['chart_info']
     collection.remove()
+
+
+# DB를 초기화하고 정보를 다시 받아오는 함수(스케줄링할 때)
+def update_db():
+    collection = DB['chart_info']
+    if collection.count() is 0:
+        insert_chart()
+        Parsing.delete_album_art()
+        Parsing.download_album_arts()
+    else:
+        remove_documents()
+        insert_chart()
+        Parsing.delete_album_art()
+        Parsing.download_album_arts()
+
+
+# update_db()를 매일 0시에 업데이트하는 함수
+def scheduled_update():
+    scheduler = BlockingScheduler()
+
+    scheduler.add_job(update_db, 'cron', month='1-12', day='*', hour='0', minute='0', second='0')
+
+    try:
+        scheduler.start()
+    except(KeyboardInterrupt, SystemExit):
+        print('end')
+        pass
