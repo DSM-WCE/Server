@@ -7,7 +7,7 @@ import os
 import Parsing
 
 PATH = os.path.join(os.getcwd(), 'static', 'images')
-CONNECTION = MongoClient('localhost', 27017)
+CONNECTION = MongoClient('mongodb://wce_club:asd456852!@ds257495.mlab.com:57495/wce')
 DB = CONNECTION.wce
 
 
@@ -36,6 +36,7 @@ def insert_chart():
 def get_chart():
     collection = DB['chart_info']
     result = collection.find()
+    data = OrderedDict()
     chart = []
     for doc in result:
         chart_info = OrderedDict()
@@ -44,8 +45,9 @@ def get_chart():
         chart_info['artist'] = doc['artist']
         chart_info['request_url'] = doc['request_url']
         chart.append(chart_info)
+    data['key'] = chart
 
-    return json.dumps(chart, ensure_ascii=False, indent='\t')
+    return json.dumps(data, ensure_ascii=False, indent='\t')
 
 
 # 컬렉션의 모든 도큐먼트를 삭제하는 함수
