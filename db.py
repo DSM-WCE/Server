@@ -1,4 +1,5 @@
 from pymongo import MongoClient
+import pymongo
 from collections import OrderedDict
 from apscheduler.schedulers.blocking import BlockingScheduler
 import json
@@ -30,12 +31,13 @@ def insert_chart():
         docs.append(insert_data)
 
     collection.insert_many(docs)
+    print('insert done')
 
 
 # DB에 저장되어있던 일별 차트의 정보 json 배열로 리턴하는 함수
 def get_chart():
     collection = DB['chart_info']
-    result = collection.find()
+    result = collection.find().sort('rank', pymongo.ASCENDING)
     data = OrderedDict()
     chart = []
     for doc in result:
@@ -54,6 +56,7 @@ def get_chart():
 def remove_documents():
     collection = DB['chart_info']
     collection.remove()
+    print('remove done')
 
 
 # DB를 초기화하고 정보를 다시 받아오는 함수(스케줄링할 때)
@@ -72,6 +75,7 @@ def update_db():
 
 # update_db()를 매일 0시에 업데이트하는 함수
 def scheduled_update():
+    print('schedule update called')
     scheduler = BlockingScheduler()
 
     scheduler.add_job(update_db, 'cron', month='1-12', day='*', hour='0', minute='0', second='0')

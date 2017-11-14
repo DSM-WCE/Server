@@ -6,7 +6,7 @@ import shutil
 
 
 URL = 'https://music.bugs.co.kr/chart/track/day/total'
-PATH = os.getcwd() + '/static/images/'
+PATH = os.path.join(os.getcwd(), 'static', 'images')
 
 
 # 전체 html 코드를 스크래핑하는 함수
@@ -64,17 +64,18 @@ def download_album_arts():
     images = get_image_url()
     for i in range(0, 100):
         url = images[i]
-        file_name = PATH + str(i + 1) + '.jpg'
+        file_name = os.path.join(PATH, str(i+1) + '.jpg')
         request.urlretrieve(url, file_name)
+    print('download done')
 
 
 # 디렉토리의 저장된 모든 앨범아트를 지우는 함수
 def delete_album_art():
-    path = os.getcwd() + '/static/images'
-    if os.path.exists(path):
-        shutil.rmtree(path)
-        os.mkdir(path)
+    if os.path.exists(PATH):
+        shutil.rmtree(PATH)
+        os.mkdir(PATH)
     else:
-        os.mkdir(path)
+        os.mkdir(PATH)
+    print('delete done')
 
 

@@ -26,7 +26,6 @@ def get_chart_info():
 
 
 def update():
-    print('update is running')
     db.scheduled_update()
 
 

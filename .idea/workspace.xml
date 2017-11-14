@@ -2,7 +2,109 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="632f86b8-b853-424b-906a-961a65471e98" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/1.jpg" afterPath="$PROJECT_DIR$/static/images/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/10.jpg" afterPath="$PROJECT_DIR$/static/images/10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/100.jpg" afterPath="$PROJECT_DIR$/static/images/100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/11.jpg" afterPath="$PROJECT_DIR$/static/images/11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/12.jpg" afterPath="$PROJECT_DIR$/static/images/12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/13.jpg" afterPath="$PROJECT_DIR$/static/images/13.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/14.jpg" afterPath="$PROJECT_DIR$/static/images/14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/15.jpg" afterPath="$PROJECT_DIR$/static/images/15.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/16.jpg" afterPath="$PROJECT_DIR$/static/images/16.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/17.jpg" afterPath="$PROJECT_DIR$/static/images/17.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/18.jpg" afterPath="$PROJECT_DIR$/static/images/18.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/19.jpg" afterPath="$PROJECT_DIR$/static/images/19.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/2.jpg" afterPath="$PROJECT_DIR$/static/images/2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/20.jpg" afterPath="$PROJECT_DIR$/static/images/20.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/21.jpg" afterPath="$PROJECT_DIR$/static/images/21.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/22.jpg" afterPath="$PROJECT_DIR$/static/images/22.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/23.jpg" afterPath="$PROJECT_DIR$/static/images/23.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/24.jpg" afterPath="$PROJECT_DIR$/static/images/24.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/25.jpg" afterPath="$PROJECT_DIR$/static/images/25.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/26.jpg" afterPath="$PROJECT_DIR$/static/images/26.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/27.jpg" afterPath="$PROJECT_DIR$/static/images/27.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/28.jpg" afterPath="$PROJECT_DIR$/static/images/28.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/29.jpg" afterPath="$PROJECT_DIR$/static/images/29.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/3.jpg" afterPath="$PROJECT_DIR$/static/images/3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/30.jpg" afterPath="$PROJECT_DIR$/static/images/30.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/31.jpg" afterPath="$PROJECT_DIR$/static/images/31.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/32.jpg" afterPath="$PROJECT_DIR$/static/images/32.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/33.jpg" afterPath="$PROJECT_DIR$/static/images/33.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/34.jpg" afterPath="$PROJECT_DIR$/static/images/34.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/35.jpg" afterPath="$PROJECT_DIR$/static/images/35.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/36.jpg" afterPath="$PROJECT_DIR$/static/images/36.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/37.jpg" afterPath="$PROJECT_DIR$/static/images/37.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/38.jpg" afterPath="$PROJECT_DIR$/static/images/38.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/39.jpg" afterPath="$PROJECT_DIR$/static/images/39.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/4.jpg" afterPath="$PROJECT_DIR$/static/images/4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/40.jpg" afterPath="$PROJECT_DIR$/static/images/40.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/41.jpg" afterPath="$PROJECT_DIR$/static/images/41.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/42.jpg" afterPath="$PROJECT_DIR$/static/images/42.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/43.jpg" afterPath="$PROJECT_DIR$/static/images/43.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/44.jpg" afterPath="$PROJECT_DIR$/static/images/44.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/45.jpg" afterPath="$PROJECT_DIR$/static/images/45.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/46.jpg" afterPath="$PROJECT_DIR$/static/images/46.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/47.jpg" afterPath="$PROJECT_DIR$/static/images/47.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/48.jpg" afterPath="$PROJECT_DIR$/static/images/48.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/49.jpg" afterPath="$PROJECT_DIR$/static/images/49.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/5.jpg" afterPath="$PROJECT_DIR$/static/images/5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/50.jpg" afterPath="$PROJECT_DIR$/static/images/50.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/51.jpg" afterPath="$PROJECT_DIR$/static/images/51.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/52.jpg" afterPath="$PROJECT_DIR$/static/images/52.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/53.jpg" afterPath="$PROJECT_DIR$/static/images/53.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/54.jpg" afterPath="$PROJECT_DIR$/static/images/54.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/55.jpg" afterPath="$PROJECT_DIR$/static/images/55.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/56.jpg" afterPath="$PROJECT_DIR$/static/images/56.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/57.jpg" afterPath="$PROJECT_DIR$/static/images/57.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/58.jpg" afterPath="$PROJECT_DIR$/static/images/58.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/59.jpg" afterPath="$PROJECT_DIR$/static/images/59.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/6.jpg" afterPath="$PROJECT_DIR$/static/images/6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/60.jpg" afterPath="$PROJECT_DIR$/static/images/60.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/61.jpg" afterPath="$PROJECT_DIR$/static/images/61.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/62.jpg" afterPath="$PROJECT_DIR$/static/images/62.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/63.jpg" afterPath="$PROJECT_DIR$/static/images/63.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/64.jpg" afterPath="$PROJECT_DIR$/static/images/64.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/65.jpg" afterPath="$PROJECT_DIR$/static/images/65.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/66.jpg" afterPath="$PROJECT_DIR$/static/images/66.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/67.jpg" afterPath="$PROJECT_DIR$/static/images/67.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/68.jpg" afterPath="$PROJECT_DIR$/static/images/68.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/69.jpg" afterPath="$PROJECT_DIR$/static/images/69.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/7.jpg" afterPath="$PROJECT_DIR$/static/images/7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/70.jpg" afterPath="$PROJECT_DIR$/static/images/70.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/71.jpg" afterPath="$PROJECT_DIR$/static/images/71.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/72.jpg" afterPath="$PROJECT_DIR$/static/images/72.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/73.jpg" afterPath="$PROJECT_DIR$/static/images/73.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/74.jpg" afterPath="$PROJECT_DIR$/static/images/74.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/75.jpg" afterPath="$PROJECT_DIR$/static/images/75.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/76.jpg" afterPath="$PROJECT_DIR$/static/images/76.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/77.jpg" afterPath="$PROJECT_DIR$/static/images/77.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/78.jpg" afterPath="$PROJECT_DIR$/static/images/78.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/79.jpg" afterPath="$PROJECT_DIR$/static/images/79.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/8.jpg" afterPath="$PROJECT_DIR$/static/images/8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/80.jpg" afterPath="$PROJECT_DIR$/static/images/80.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/81.jpg" afterPath="$PROJECT_DIR$/static/images/81.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/82.jpg" afterPath="$PROJECT_DIR$/static/images/82.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/83.jpg" afterPath="$PROJECT_DIR$/static/images/83.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/84.jpg" afterPath="$PROJECT_DIR$/static/images/84.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/85.jpg" afterPath="$PROJECT_DIR$/static/images/85.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/86.jpg" afterPath="$PROJECT_DIR$/static/images/86.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/87.jpg" afterPath="$PROJECT_DIR$/static/images/87.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/88.jpg" afterPath="$PROJECT_DIR$/static/images/88.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/89.jpg" afterPath="$PROJECT_DIR$/static/images/89.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/9.jpg" afterPath="$PROJECT_DIR$/static/images/9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/90.jpg" afterPath="$PROJECT_DIR$/static/images/90.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/91.jpg" afterPath="$PROJECT_DIR$/static/images/91.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/92.jpg" afterPath="$PROJECT_DIR$/static/images/92.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/93.jpg" afterPath="$PROJECT_DIR$/static/images/93.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/94.jpg" afterPath="$PROJECT_DIR$/static/images/94.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/95.jpg" afterPath="$PROJECT_DIR$/static/images/95.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/96.jpg" afterPath="$PROJECT_DIR$/static/images/96.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/97.jpg" afterPath="$PROJECT_DIR$/static/images/97.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/98.jpg" afterPath="$PROJECT_DIR$/static/images/98.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/99.jpg" afterPath="$PROJECT_DIR$/static/images/99.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Parsing.py" afterPath="$PROJECT_DIR$/Parsing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.py" afterPath="$PROJECT_DIR$/app.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.py" afterPath="$PROJECT_DIR$/db.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +122,7 @@
     <SUITE FILE_PATH="coverage/Server_python$ImageParsing.coverage" NAME="ImageParsing Coverage Results" MODIFIED="1510226939015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Server$Parsing.coverage" NAME="Parsing Coverage Results" MODIFIED="1510571906444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Server$Server_python.coverage" NAME="Server_python Coverage Results" MODIFIED="1510636113917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Server$app.coverage" NAME="app Coverage Results" MODIFIED="1510655112134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Server$app.coverage" NAME="app Coverage Results" MODIFIED="1510675151243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Server_python$Parsing.coverage" NAME="Parsing Coverage Results" MODIFIED="1510184494262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
@@ -39,11 +141,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="db.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="db.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+            <state relative-caret-position="1955">
+              <caret line="85" column="20" lean-forward="true" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -51,11 +153,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="collection.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/pymongo/collection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="1112" column="36" lean-forward="true" selection-start-line="1112" selection-start-column="36" selection-end-line="1112" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Parsing.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Parsing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+            <state relative-caret-position="1230">
+              <caret line="78" column="24" lean-forward="false" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -63,11 +175,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            <state relative-caret-position="345">
+              <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -88,8 +200,6 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>read</find>
-      <find>insert_one</find>
-      <find>find</find>
       <find>remove</find>
       <find>get_collection</find>
       <find>jpg</find>
@@ -99,6 +209,11 @@
       <find>run</find>
       <find>add</find>
       <find>add_job</find>
+      <find>insert_one</find>
+      <find>find</find>
+      <find>sort</find>
+      <find>def find</find>
+      <find>def find(</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -110,13 +225,13 @@
         <option value="$PROJECT_DIR$/MultiprocessImage.py" />
         <option value="$PROJECT_DIR$/ImageParsing.py" />
         <option value="$PROJECT_DIR$/image.py" />
-        <option value="$PROJECT_DIR$/Parsing.py" />
         <option value="$PROJECT_DIR$/Server_python.py" />
         <option value="$PROJECT_DIR$/Procfile.txt" />
         <option value="$PROJECT_DIR$/runtime.txt" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/scheduler.py" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/Parsing.py" />
         <option value="$PROJECT_DIR$/db.py" />
       </list>
     </option>
@@ -148,7 +263,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,16 +270,12 @@
               <item name="Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Server" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,7 +295,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.db">
+  <component name="RunManager" selected="Python.app">
     <configuration name="Parsing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -304,8 +414,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.db" />
-        <item index="1" class="java.lang.String" itemvalue="Python.app" />
+        <item index="0" class="java.lang.String" itemvalue="Python.app" />
+        <item index="1" class="java.lang.String" itemvalue="Python.db" />
         <item index="2" class="java.lang.String" itemvalue="Python.scheduler" />
         <item index="3" class="java.lang.String" itemvalue="Python.Parsing" />
         <item index="4" class="java.lang.String" itemvalue="Python.image" />
@@ -336,6 +446,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -343,7 +454,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29317698" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29317698" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="706" y="342" width="878" height="539" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -483,13 +594,6 @@
     <entry file="file://$PROJECT_DIR$/static/images/39.png" />
     <entry file="file://$PROJECT_DIR$/static/images/36.png" />
     <entry file="file://$PROJECT_DIR$/static/images/34.png" />
-    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/-121832731/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="338" column="7" lean-forward="true" selection-start-line="338" selection-start-column="7" selection-end-line="338" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/multiprocessing/pool.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -537,13 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/pymongo/collection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="672" column="8" lean-forward="false" selection-start-line="672" selection-start-column="8" selection-end-line="672" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/gridfs/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
@@ -555,13 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="73" column="4" lean-forward="false" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/collections/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="1183" column="8" lean-forward="false" selection-start-line="1183" selection-start-column="8" selection-end-line="1183" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -615,32 +705,56 @@
     <entry file="file://$PROJECT_DIR$/runtime.txt" />
     <entry file="file://$PROJECT_DIR$/requirements.txt" />
     <entry file="file://$PROJECT_DIR$/scheduler.py" />
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Parsing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        <state relative-caret-position="1230">
+          <caret line="78" column="24" lean-forward="false" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/collections/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="191">
+          <caret line="1087" column="49" lean-forward="false" selection-start-line="1087" selection-start-column="45" selection-end-line="1087" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/pymongo/collection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="329">
+          <caret line="1112" column="36" lean-forward="true" selection-start-line="1112" selection-start-column="36" selection-end-line="1112" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/-121832731/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="519" column="4" lean-forward="false" selection-start-line="519" selection-start-column="4" selection-end-line="519" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1955">
+          <caret line="85" column="20" lean-forward="true" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
