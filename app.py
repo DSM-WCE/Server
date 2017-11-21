@@ -32,9 +32,6 @@ def update():
 if __name__ == '__main__':
     thread = threading.Thread(target=update)
     thread.start()
-<<<<<<< HEAD
-    app.run(host='0.0.0.0')
-=======
-    app.run(host='0.0.0.0', port=80)
->>>>>>> 3338285a9c0e31c755e3207e25709c12aaa34209
+
+    app.run(host='0.0.0.0', port=5000)
 
